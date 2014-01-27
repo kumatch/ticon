@@ -1,0 +1,25 @@
+{
+  "author": "Yosuke Kumakura <kumatch@gmail.com>",
+  "name": "ticon",
+  "description": "tiny module container.",
+  "version": "0.0.1",
+  "main": "./lib/ticon.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kumatch/ticon.git"
+  },
+  "github": "https://github.com/kumatch/ticon",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/**/*.test.js"
+  }
+}
