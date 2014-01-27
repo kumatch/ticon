@@ -3,6 +3,9 @@ ticon
 
 tiny module container.
 
+[![Build Status](https://travis-ci.org/kumatch/picon.png?branch=master)](https://travis-ci.org/kumatch/picon)
+
+
 
 License
 --------
