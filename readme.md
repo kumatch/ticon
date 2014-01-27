@@ -3,7 +3,7 @@ ticon
 
 tiny module container.
 
-[![Build Status](https://travis-ci.org/kumatch/picon.png?branch=master)](https://travis-ci.org/kumatch/picon)
+[![Build Status](https://travis-ci.org/kumatch/ticon.png?branch=master)](https://travis-ci.org/kumatch/ticon)
 
 
 
