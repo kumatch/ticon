@@ -1,4 +1,5 @@
 var expect = require('chai').expect;
+var assert = require('assert');
 var container = require('../lib/container');
 
 describe('Container', function () {
@@ -136,5 +137,35 @@ describe('Container', function () {
 
         expect(foo_count).to.equals(1);
         expect(bar_count).to.equals(1);
+    });
+
+
+    describe('set falses value.', function () {
+        var c = container.create();
+
+        it('should load false if set false.', function () {
+            c.set("false", false);
+            assert(c.get("false") === false);
+        });
+
+        it('should load null if set null.', function () {
+            c.set("null", null);
+            assert(c.get("null") === null);
+        });
+
+        it('should load zero integer if set zero integer.', function () {
+            c.set("zero", 0);
+            assert(c.get("zero") === 0);
+        });
+
+        it('should load blank string if set blank string.', function () {
+            c.set("blank", "");
+            assert(c.get("blank") === "");
+        });
+
+        it('should load undefined if set undefined.', function () {
+            c.set("undefined", undefined);
+            assert(c.get("undefined") === undefined);
+        });
     });
 });
