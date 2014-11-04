@@ -2,7 +2,7 @@
   "author": "Yosuke Kumakura <kumatch@gmail.com>",
   "name": "ticon",
   "description": "tiny module container.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/ticon.js",
   "repository": {
     "type": "git",
